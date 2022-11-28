@@ -1,0 +1,65 @@
+body {
+    background-color: #f5d9df;
+}
+
+#mainNavbar {
+    font-family: 'nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+
+
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#grouping span {
+    color: #ea1c2c;
+
+
+}
+
+#grouping h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media(max-width:1200px) {
+    #grouping h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+.overall {
+    margin-top: 50px;
+}
+
+.abcd h1 {
+    color: #ea1c2c;
+    font-size: 2.25rem;
+    font-weight: 100;
+}
+
+.abcd p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    color: #f498b8;
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 500ms;
+}
